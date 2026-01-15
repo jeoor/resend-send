@@ -13,7 +13,9 @@
 ---
 ## 预览截图
 1. 电脑
+
 ![登录界面](./github/电脑登录.png)
+
 ![编辑界面](./github/电脑编辑.png)
 
 2. 手机
@@ -34,41 +36,64 @@
 1. Fork 本仓库到你的 GitHub 账号下
 2. 进入 [Cloudflare 仪表盘](https://dash.cloudflare.com/)
 3. 点击左栏的`计算与 AI`，进入`Workers 和 Pages`页面
+
 ![计算与AI](./github/计算与AI.png)
+
 4. 点击`创建应用程序`
+
 ![创建应用程序](./github/创建应用程序.png)
+
 5. 选择`Continue with GitHub`
+
 ![Continue with GitHub](./github/Github.png)
+
 6. 如下图配置应用后部署
+
 ![Worker配置](./github/Worker配置.png)
+
 - 选择刚才Fork的仓库
 - 构建命令（安装wrangler）
+
 ```bash
 npm install
 ```
 - 部署命令
+
 ```bash
 npx run deploy
 ```
 7. 部署好后进入 Worker 的设置
+
 ![Worker设置](./github/Worker设置.png)
+
 8. 设置 [Resend API Key](https://resend.com/api-keys) 和访问密码环境变量
+
 ![设置变量](./github/设置变量.png)
+
 如上图设置两个`密钥`类型的环境变量：`RESEND_API_KEY` 和 `
 AUTH_PASSWORD`，保存并部署
+
 9. 设置自定义域名方便记忆（可选）
+
 ![设置自定义域名](./github/自定义域.png)
+
 10. 访问Worker
 
 ### 2. 不需要 Fork
 1. `复制`本仓库 `worker.js` 的内容
 2. 完成`上一节`的`第2步到第4步`
 3. 选择`从 Hello World! 开始`，然后点击部署
+
 ![从 Hello World! 开始](./github/0.png)
+
 4. 点击进入部署好的 Worker 界面，点击右上角的`编辑代码`
+
 ![编辑代码](./github/编辑代码.png)
+
 5. `粘贴`刚才复制的代码，点击右上角`部署`
+
 ![部署](./github/部署.png)
+
 6. 完成`上一节`的第`7步到第10步`
 
 ---
