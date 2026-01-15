@@ -3,7 +3,7 @@
 
 一个简单的Web应用，利用 [Resend](https://resend.com/) API 便利地发送邮件，让你拥有类似于邮件客户端的使用体验
 
-本项目用于部署到 [Cloudflare](https://dash.cloudflare.com/) Workers 上，无需准备环境和服务器，可以直接在浏览器访问worker地址或自定义域名访问
+本项目需要部署到 [Cloudflare](https://dash.cloudflare.com/) Workers 上使用，无需准备环境和服务器，可以直接在浏览器访问 worker 地址或自定义域名访问
 
 ---
 ## 功能
