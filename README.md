@@ -1,5 +1,5 @@
 # resend-send
-像使用邮件客户端一样使用你的域名邮箱
+像使用邮件客户端一样使用你的域名邮箱发送邮件
 
 一个简单的Web应用，利用 [Resend](https://resend.com/) API 便利地发送邮件，让你拥有类似于邮件客户端的使用体验
 
@@ -38,7 +38,7 @@
 4. 点击`创建应用程序`
 ![创建应用程序](./github/创建应用程序.png)
 5. 选择`Continue with GitHub`
-![Continue with GitHub](./github/GitHub.png)
+![Continue with GitHub](./github/Github.png)
 6. 如下图配置应用后部署
 ![Worker配置](./github/Worker配置.png)
 - 选择刚才Fork的仓库
