@@ -1,0 +1,22 @@
+{
+  "name": "my-email-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "marked": "^11.1.1",
+    "resend": "^6.7.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

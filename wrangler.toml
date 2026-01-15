@@ -1,0 +1,8 @@
+name = "resend-send"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# 绑定环境变量建议在 Cloudflare 后台设置，不要提交到 GitHub
+# [vars]
+# AUTH_PASSWORD = ""
+# RESEND_API_KEY = ""
