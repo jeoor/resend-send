@@ -22,10 +22,10 @@
 
 ---
 ##  你需要的
+- 一个[自己的域名](https://www.namesilo.com/)和[域名邮箱](https://developers.cloudflare.com/email-routing/)
 - 一个[Resend API Key](https://developers.cloudflare.com/workers/tutorials/send-emails-with-resend/)
 - 一个 [Cloudflare 账号](https://dash.cloudflare.com/)
 - 熟悉 [Markdown 语法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- 一个[自己的域名](https://www.namesilo.com/)和[域名邮箱](https://developers.cloudflare.com/email-routing/)
 
 ---
 ## 如何部署
