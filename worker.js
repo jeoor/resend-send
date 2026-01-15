@@ -385,7 +385,7 @@ const html = `<!DOCTYPE html>
                 overflow-y: auto; /* 允许内部滚动 */
                 display: flex;
                 flex-direction: column;
-                padding-bottom: 120px; /* 增加底部留白，防止移动端按钮被遮挡 */
+                padding-bottom: 100px; /* 增加底部留白，防止移动端按钮被遮挡 */
             }
             /* 让 textarea 自动填满剩余空间 */
             textarea { 
