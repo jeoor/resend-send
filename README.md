@@ -1,6 +1,7 @@
 # resend-send
+像使用邮件客户端一样使用你的域名邮箱
 
-简单的Web应用，利用 [Resend](https://resend.com/) API 便利地发送邮件，让你拥有类似于邮件客户端的使用体验
+一个简单的Web应用，利用 [Resend](https://resend.com/) API 便利地发送邮件，让你拥有类似于邮件客户端的使用体验
 
 本项目用于部署到 [Cloudflare](https://dash.cloudflare.com/) Workers 上，无需准备环境和服务器，可以直接在浏览器访问worker地址或自定义域名访问
 
@@ -24,7 +25,7 @@
 - 一个[Resend API Key](https://developers.cloudflare.com/workers/tutorials/send-emails-with-resend/)
 - 一个 [Cloudflare 账号](https://dash.cloudflare.com/)
 - 熟悉 [Markdown 语法](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- 一个[自己的域名](https://www.namesilo.com/)（可选）
+- 一个[自己的域名](https://www.namesilo.com/)和[域名邮箱](https://developers.cloudflare.com/email-routing/)
 
 ---
 ## 如何部署
